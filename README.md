@@ -63,8 +63,7 @@ The project folder structure is as follows:
         ├── nearest_bicimad_station.csv    
         └── nearest_bicimad_stations_all.csv
 
-⚙️ Installation
-## ⚙️ Installation
+##⚙️ Installation**
 
 1. **Clone the repository**  
    To get the project on your local machine, clone the repository with the following command:
