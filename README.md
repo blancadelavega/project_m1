@@ -9,7 +9,7 @@ Welcome to the **BiciMAD Stations & Points of Interest** application! 🚴‍♂
 ## 📁 Folder Structure
 
 The project folder structure is as follows:
-<div style="font-family: monospace; white-space: pre;">
+
 Project
 ├── .gitignore
 ├── README.md
@@ -25,4 +25,3 @@ Project
     ├── bicipark_stations.csv
     ├── nearest_bicimad_station.csv
     └── nearest_bicimad_stations_all.csv
-</div>
