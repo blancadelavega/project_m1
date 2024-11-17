@@ -40,14 +40,13 @@ To run the script and get the results, simply execute the following command in y
 
 ```bash
 python main.py
-```bash
 
-## 💻 Technology stack
+ **💻 Technology stack **
 pandas==2.1.4
 requests==2.31.0
 
 
-## 📁 Folder Structure
+ **📁 Folder Structure**
 
 The project folder structure is as follows:
 ```text
@@ -66,3 +65,5 @@ The project folder structure is as follows:
         ├── bicipark_stations.csv
         ├── nearest_bicimad_station.csv    
         └── nearest_bicimad_stations_all.csv
+
+
