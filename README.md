@@ -40,7 +40,7 @@ To run the script and get the results, simply execute the following command in y
 
 ```bash
 python main.py
-
+```bash
 
 ## 💻 Technology stack
 pandas==2.1.4
