@@ -7,12 +7,12 @@ Welcome to the **BiciMAD Stations & Points of Interest** application! 🚴‍♂
 There are 2 different datasource involved:
 
 1. **BiciMAD Stations**: 
-   - This is the primary dataset used to get information about the **BiciMAD bike stations** in Madrid. 
+   - This dataset provides information about **BiciMAD bike stations** in Madrid.
    - You can find this dataset in the file: `bicimad_stations.csv`.
 
 2. **Educational Centers**:
-   - This dataset provides data about the **educational centers** in Madrid. The application fetches this data from a public API.
-   - This data is obtained from the API located at: `https://datos.madrid.es/egob/catalogo/300614-0-centros-educativos.json`.
+   - This dataset contains information about **educational centers** in Madrid. The application fetches this data from a public API.
+   - Data source: [Madrid Educational Centers API](https://datos.madrid.es/egob/catalogo/300614-0-centros-educativos.json).
 
 
 ## ⏩ How it works
@@ -36,17 +36,14 @@ The application fetches data from two main sources: a local CSV file containing 
 5. **Results**: 
    - The nearest BiciMAD station for each educational center is identified and saved into a CSV file (`nearest_bicimad_stations.csv` or `nearest_bicimad_stations_all.csv`).
 
-To run the script and get the results, simply execute the following command in your terminal:
+## 💻 Technology stack
 
-```bash
-python main.py
+This project uses the following libraries and versions:
 
- **💻 Technology stack **
-pandas==2.1.4
-requests==2.31.0
+pandas: pandas==2.1.4
+requests: requests==2.31.0
 
-
- **📁 Folder Structure**
+## 📁 Folder Structure
 
 The project folder structure is as follows:
 ```text
@@ -66,4 +63,25 @@ The project folder structure is as follows:
         ├── nearest_bicimad_station.csv    
         └── nearest_bicimad_stations_all.csv
 
+⚙️ Installation
+## ⚙️ Installation
 
+1. **Clone the repository**  
+   To get the project on your local machine, clone the repository with the following command:
+   ```bash
+   git clone https://github.com/yourusername/bicimad-project.git
+
+2. **Navigate to the project directory**  
+   Change into the project directory with the following command:
+   ```bash
+   cd bicimad-project
+
+3. **Install dependencies**  
+   Install the required dependencies listed in the `requirements.txt` file using:  
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the script**  
+   To execute the script and generate the results, use:  
+   ```bash
+   python main.py
