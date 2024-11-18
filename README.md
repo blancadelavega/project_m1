@@ -60,9 +60,22 @@ requests: requests==2.31.0
    ```bash
    python main.py
 
-4. **Run the script**  
-   To execute the script and generate the results, use:  
-   ```bash
-   python main.py
-
 ## 📁 Folder Structure
+
+The project folder structure is as follows:
+```text
+└── Project
+    ├── .gitignore
+    ├── README.md
+    ├── main.py
+    ├── notebooks
+    │   ├── BiciMad_Station_DF.ipynb
+    │   ├── Final_DF.ipynb
+    │   └── Places_DF.ipynb
+    ├── modules
+    │   └── module.py
+    └── data
+        ├── bicimad_stations.csv
+        ├── bicipark_stations.csv
+        ├── nearest_bicimad_station.csv    
+        └── nearest_bicimad_stations_all.csv
