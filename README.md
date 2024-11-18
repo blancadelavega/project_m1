@@ -41,6 +41,7 @@ The application fetches data from two main sources: a local CSV file containing 
 This project uses the following libraries and versions:
 
 pandas: pandas==2.1.4
+
 requests: requests==2.31.0
 
 ## ⚙️ Installation
