@@ -84,23 +84,10 @@ def save_to_csv (dataframe):
 
 #4.Choose posibility:
 
-def parse_arguments():
+def argument_parser():
     parser = argparse.ArgumentParser(description="Get stations near points of interest.")
-    
+    help_message ='You have two options. 1. "all": Get table with information for all places. 2. "place": obtain a table corresponding to a specific place provided by the user.'
+    parser.add_argument('-f', '--function', help=help_message, type=str)
     args = parser.parse_args()
-
-    specific_place_answer = input("Do you want to input a specific place of interest? (yes/no): ").strip().lower()
-
-    if specific_place_answer == 'yes':
-        specific_place_name = input("Please enter the name of the specific place of interest: ").strip()
-        args.specific_place_name = specific_place_name  
-        args.specific_place = True  
-    elif specific_place_answer == 'no':
-        args.specific_place = False  
-        args.all_places = True  
-    else:
-        print("Invalid input. Please type 'yes' or 'no'.")
-        exit() 
-
     return args
 
